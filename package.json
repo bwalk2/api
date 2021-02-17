@@ -1,0 +1,21 @@
+{
+  "name": "api",
+  "version": "1.0.0",
+  "description": "## Project setup ``` npm install ```",
+  "main": "js.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "concurrently -k npm:serve npm:client:serve",
+    "serve": "Node js",
+    "client:serve": "cd client && npm run serve"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^4.17.1",
+    "node-fetch": "^2.6.1",
+    "xml-js": "^1.6.11",
+    "concurrently": "^5.0.1"
+  }
+}
